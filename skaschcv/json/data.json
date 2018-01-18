@@ -1,0 +1,362 @@
+[
+    {
+        "endpoint": "/",
+        "data": {
+            "meta": {
+                "title": "CV Romain Mondon-Cancel"
+            },
+            "header": {
+                "name": "Romain Mondon-Cancel",
+                "description": "Data Scientist capable d'implémenter de complexes modèles mathématiques en prenant en compte les contraintes opérationnelles pour produire des résultats actionnables et les communiquer sous forme de visualisations impactantes."
+            },
+            "side": [
+                {
+                    "type": "section",
+                    "title": "Contact",
+                    "content": [
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "home"
+                            },
+                            "title": "Adresse",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "60 rue du rendez-vous<br/>75012 Paris"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "phone_android"
+                            },
+                            "title": "Téléphone",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "+33 (0)6 95 77 01 24"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "email"
+                            },
+                            "title": "Courriel",
+                            "content": {
+                                "type": "url",
+                                "value": "romain.mondoncancel@gmail.com",
+                                "href": "mailto:romain.mondoncancel@gmail.com"
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "public"
+                            },
+                            "title": "Site web",
+                            "content": {
+                                "type": "url",
+                                "value": "cv.skasch.com",
+                                "href": "https://cv.skasch.com"
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "linkedin"
+                            },
+                            "title": "LinkedIn",
+                            "content": {
+                                "type": "url",
+                                "value": "linkedin.com/in/skasch",
+                                "href": "https://www.linkedin.com/in/skasch"
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "github"
+                            },
+                            "title": "GitHub",
+                            "content": {
+                                "type": "url",
+                                "value": "github.com/skasch",
+                                "href": "https://www.github.com/skasch"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Compétences",
+                    "content": [
+                        {
+                            "type": "progress-bar",
+                            "title": "Data Science",
+                            "value": 90
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Business Intelligence",
+                            "value": 75
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Gestion de projet",
+                            "value": 60
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Data Visualization",
+                            "value": 82.5
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Bases de données",
+                            "value": 67.5
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Informatique",
+                    "content": [
+                        {
+                            "type": "stars",
+                            "title": "R",
+                            "value": 4.5
+                        },
+                        {
+                            "type": "stars",
+                            "title": "SQL/Hive",
+                            "value": 3.5
+                        },
+                        {
+                            "type": "stars",
+                            "title": "Python",
+                            "value": 4
+                        },
+                        {
+                            "type": "stars",
+                            "title": "Shell",
+                            "value": 3.5
+                        },
+                        {
+                            "type": "stars",
+                            "title": "Git",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Langues",
+                    "content": [
+                        {
+                            "type": "badged",
+                            "title": "Français",
+                            "badge": "FR",
+                            "value": "Langue maternelle"
+                        },
+                        {
+                            "type": "badged",
+                            "title": "Anglais",
+                            "badge": "EN",
+                            "value": "Bilingue"
+                        },
+                        {
+                            "type": "badged",
+                            "title": "Espagnol",
+                            "badge": "ES",
+                            "value": "Intermédiaire"
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Divers",
+                    "content": [
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "landscape"
+                            },
+                            "title": "Sport",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Pratique l'escalade depuis 2009"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "photo_camera"
+                            },
+                            "title": "Loisirs",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Photographe amateur depuis 2013"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "trophy"
+                            },
+                            "title": "Récompenses",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Mention au Concours Général de mathématiques 2007",
+                                    "Second suppléant aux Olympiades Internationales de Physique 2008"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "main": [
+                {
+                    "type": "icon-section",
+                    "title": "Formation",
+                    "icon": {
+                        "library": "material",
+                        "name": "school"
+                    },
+                    "content": [
+                        {
+                            "type": "experience",
+                            "title": "École polytechnique",
+                            "subtitle": "Diplôme d'ingénieur de l'École polytechnique – région parisienne",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Formation généraliste en mathématiques, mathématiques appliquées, physique et informatique.",
+                                    "<em>Outstanding Investment</em> : a fait preuve d'un investissement exceptionnel dans la vie de promotion (2012)."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Sept. 2009",
+                                "end": "Août 2012",
+                                "duration": "3 ans"
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "École des mines ParisTech",
+                            "subtitle": "Diplôme d'ingénieur des mines de Paris – Paris",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Cursus <em>Machines et Énergie</em>.",
+                                    "<em>Projet mécatronique</em> : gestion de la communication d'une équipe de 15 étudiants pour un projet de réalisation d'une base roulante pour drone quadricoptère."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Sept. 2009",
+                                "end": "Août 2012",
+                                "duration": "3 ans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "icon-section",
+                    "title": "Expérience professionnelle",
+                    "icon": {
+                        "library": "material",
+                        "name": "work"
+                    },
+                    "content": [
+                        {
+                            "type": "experience",
+                            "title": "Data Scientist",
+                            "subtitle": "Ubisoft – région parisienne",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "A analysé les données comportementales des joueurs de différents jeux et segmenté ces populations pour affiner la connaissance client par groupe plutôt qu'au global (environ 10 millions de lignes).",
+                                    "A développé et mis en production différents outils d'analyse en <em>R-Shiny</em>, tels que la matrice Importance-Satisfaction, pour être utilisables par tous les analystes.",
+                                    "A préparé et animé différentes formations autour des Data Sciences à destination d'analystes, notamment en statistiques, en Machine Learning et en python."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Jan. 2016",
+                                "end": "–",
+                                "duration": "2 ans"
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Data Scientist",
+                            "subtitle": "Ubisoft – San Francisco",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "A analysé les données comportementales des joueurs de différents jeux et segmenté ces populations pour affiner la connaissance client par groupe plutôt qu'au global (environ 10 millions de lignes).",
+                                    "A développé un framework autour de <em>R-shiny</em> pour pouvoir rapidement déployer des applications web afin de visualiser des résultats d'analyses.",
+                                    "A développé un outil de segmentation de documents textuels utilisant la pondération <em>TF-IDF</em> pour faciliter le traitement de données déclaratives."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Jan. 2015",
+                                "end": "Jan. 2016",
+                                "duration": "1 an"
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Research Engineer (stage)",
+                            "subtitle": "Argonne National Laboratory – région de Chicago",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "A développé un algorithme utilisant les chaînes de Markov pour généner des profils de vitesse de véhicules réalistes sur des trajets donnés.",
+                                    "A développé une interface graphique en Matlab pour exécuter ce précédent algorithme et itérer rapidemenet son application sur différents jeux de données."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Jan. 2014",
+                                "end": "Juil. 2014",
+                                "duration": "6 m."
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Ingénieur-chercheur (stage)",
+                            "subtitle": "Commissariat à l'énergie atomique (CEA) – région parisienne",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "A développé un algorithme innovant en Matlab et Fortran exécuté sur des serveurs de calcul dédiés pour résoudre les équations mécaniques de milieux hétérogènes sous fortes contraintes ; l'algorithme tournait entre 5 et 20 fois plus rapidement que l'algorithme de référence à l'issue du stage."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Mai 2012",
+                                "end": "Août 2012",
+                                "duration": "4 m."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

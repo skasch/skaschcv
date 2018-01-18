@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<h1>{{ data.header.name }}</h1>
+<div class="col-12 col-xl-10">
+    <p class="cv-summary">
+        {{ data.header.description }}
+    </p>
+</div>
+{% endblock %}
+
+{% block side %}
+<div class="container-fluid">
+    {% for group in data.side %}
+        <div class=row>
+            {% if group.type == 'section' %}
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="cv-h-container">
+                            <h3>{{ group.title }}</h3>
+                        </div>
+                    </div>
+                    {% for side_element in group.content %}
+                        <div class="row">
+                            {% if side_element.type == 'icon-card' %}
+                                {% include 'icon_card.html' %}
+                            {% elif side_element.type == 'progress-bar' %}
+                                {% include 'progress_bar.html' %}
+                            {% elif side_element.type == 'stars' %}
+                                {% include 'stars.html' %}
+                            {% elif side_element.type == 'badged' %}
+                                {% include 'badged.html' %}
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
+{% block main %}
+<div class="container-fluid">
+    {% for group in data.main %}
+        <div class=row>
+            {% if group.type == 'icon-section' %}
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="cv-h-container">
+                            <div class="d-flex">
+                                {% with icon=group.icon, css_class="cv-icon-main" %}
+                                    {% include 'icon.html' %}
+                                {% endwith %}
+                                <h2 class="align-self-end">{{ group.title }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    {% for side_element in group.content %}
+                    <div class="row">
+                        {% if side_element.type == 'experience' %} 
+                            {% include 'experience.html' %}
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
