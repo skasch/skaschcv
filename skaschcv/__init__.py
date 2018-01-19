@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-__init__.py
+Initiate the Flask application.
 
-Created by Romain Mondon-Cancel on 2018-01-18.
+@author: skasch
 """
-from .skaschcv import app
+
+from .app import app

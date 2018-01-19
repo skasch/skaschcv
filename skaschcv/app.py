@@ -1,18 +1,16 @@
 #!/usr/bin/env python
 # encoding: utf-8
 """
-skaschcv.py
+Creates the Flask object app to serve skaschcv.
 
-Created by Romain Mondon-Cancel on 2018-01-18.
+@author: skasch
 """
 import json
-import io
 from flask import Flask, g, render_template
 
 app = Flask(__name__)
-app.config.from_object(__name__)
 
-# app.config.update(dict())
+app.config.from_object('config')
 app.config.from_envvar('SKASCHCV_SETTINGS', silent=True)
 
 def read_data():
@@ -31,7 +29,6 @@ def get_data(endpoint):
     if not hasattr(g, 'json_data'):
         g.json_data = list(filter(lambda x: x['endpoint'] == endpoint,
                                   read_data()))[0]['data']
-        print(g.json_data['header']['description'])
     return g.json_data
 
 @app.route('/')
