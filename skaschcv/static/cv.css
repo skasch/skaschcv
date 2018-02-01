@@ -1,3 +1,10 @@
+@media print {
+  .container {
+    min-width: 1140px;
+    max-width: 1140px;
+  }
+}
+
 h6 {
   color: #1565c0 !important;
 }
