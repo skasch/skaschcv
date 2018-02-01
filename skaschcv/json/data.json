@@ -93,6 +93,19 @@
                                 "value": "github.com/skasch",
                                 "href": "https://www.github.com/skasch"
                             }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "codepen"
+                            },
+                            "title": "CodePen",
+                            "content": {
+                                "type": "url",
+                                "value": "codepen.io/skasch",
+                                "href": "https://www.codepen.io/skasch"
+                            }
                         }
                     ]
                 },
