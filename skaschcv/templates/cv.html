@@ -4,7 +4,7 @@
 <h1>{{ data.header.name }}</h1>
 <div class="col-12 col-xl-10">
     <p class="cv-summary">
-        {{ data.header.description }}
+        {{ data.header.description|safe }}
     </p>
 </div>
 {% endblock %}

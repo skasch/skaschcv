@@ -39,3 +39,13 @@ def show_resume():
     endpoint = '/'
     data = get_data(endpoint)
     return render_template("cv.html", data=data)
+
+
+@app.route('/cecile_mkg_fr')
+def show_resume_cecile_mkg_fr():
+    """
+    Show the default resume.
+    """
+    endpoint = '/cecile_mkg_fr'
+    data = get_data(endpoint)
+    return render_template("cv.html", data=data)

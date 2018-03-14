@@ -1,0 +1,19 @@
+<ul style="list-style-type: circle; padding-left: 1em;">
+    {% if content.content|length == 1 %}
+        <li>
+            {{ content.content[0]|safe }}
+        </li>
+    {% else %}
+        <li style="padding-bottom: 0.2em;">
+            {{ content.content[0]|safe }}
+        </li>
+        {% for text in content.content[1:-1] %}
+            <li style="padding-top: 0.2em;">
+                {{ text|safe }}
+            </li>
+        {% endfor %}
+        <li style="padding-top: 0.2em;">
+            {{ content.content[-1]|safe }}
+        </li>
+    {% endif %}
+</ul>

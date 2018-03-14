@@ -371,5 +371,374 @@
                 }
             ]
         }
+    },
+    {
+        "endpoint": "/cecile_mkg_fr",
+        "data": {
+            "meta": {
+                "title": "CV Cécile BÉDU"
+            },
+            "header": {
+                "name": "Cécile BÉDU",
+                "description": "Consultante capable de gérer en autonomie des projets de conduite du changement actuellement en recherche de nouveaux challenges <span style='display: inline-block;'>en Marketing et Communication.</span>"
+            },
+            "side": [
+                {
+                    "type": "section",
+                    "title": "Contact",
+                    "content": [
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "home"
+                            },
+                            "title": "Adresse",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "60 rue du rendez-vous<br/>75012 Paris – France"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "phone_android"
+                            },
+                            "title": "Téléphone",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "+33 (0)7 88 09 95 76"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "skype"
+                            },
+                            "title": "Skype",
+                            "content": {
+                                "type": "url",
+                                "value": "bedu.cecile",
+                                "href": "skype:bedu.cecile"
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "email"
+                            },
+                            "title": "E-mail",
+                            "content": {
+                                "type": "url",
+                                "value": "cecile.bedu@gmail.com",
+                                "href": "mailto:cecile.bedu@gmail.com"
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "linkedin"
+                            },
+                            "title": "LinkedIn",
+                            "content": {
+                                "type": "url",
+                                "value": "Cécile Bédu",
+                                "href": "https://www.linkedin.com/in/c%C3%A9cile-b%C3%A9du-7545a65b/?locale=fr_FR"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Compétences",
+                    "content": [
+                        {
+                            "type": "progress-bar",
+                            "title": "Management de projet",
+                            "value": 90
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Conduite du changement",
+                            "value": 70
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Marketing",
+                            "value": 90
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Communication",
+                            "value": 70
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Brand Management",
+                            "value": 80
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Gestion événementielle",
+                            "value": 90
+                        },
+                        {
+                            "type": "progress-bar",
+                            "title": "Ressources Humaines",
+                            "value": 60
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Informatique",
+                    "content": [
+                        {
+                            "type": "stars",
+                            "title": "Confluence",
+                            "value": 4.5
+                        },
+                        {
+                            "type": "stars",
+                            "title": "Jira",
+                            "value": 3.5
+                        },
+                        {
+                            "type": "stars",
+                            "title": "Suite Office",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Langues",
+                    "content": [
+                        {
+                            "type": "badged",
+                            "title": "Français",
+                            "badge": "FR",
+                            "value": "Langue maternelle"
+                        },
+                        {
+                            "type": "badged",
+                            "title": "Anglais",
+                            "badge": "EN",
+                            "value": "Bilingue"
+                        },
+                        {
+                            "type": "badged",
+                            "title": "Allemand",
+                            "badge": "DE",
+                            "value": "Courant"
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "title": "Divers",
+                    "content": [
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "landscape"
+                            },
+                            "title": "Sport",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Pratique l'escalade depuis 2015"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "material",
+                                "name": "local_dining"
+                            },
+                            "title": "Loisirs",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Cuisinière amateure ayant un faible pour les gâteaux"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "book"
+                            },
+                            "title": "Littérature",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Lectrice assidue de livres de science-fiction et de fantasy"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "icon-card",
+                            "icon": {
+                                "library": "fontawesome",
+                                "name": "trophy"
+                            },
+                            "title": "Récompenses",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Prix du jury lors du Nudge Challenge contre le gaspillage alimentaire en 2016"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "main": [
+                {
+                    "type": "icon-section",
+                    "title": "Formation",
+                    "icon": {
+                        "library": "material",
+                        "name": "school"
+                    },
+                    "content": [
+                        {
+                            "type": "experience",
+                            "title": "SKEMA Business School",
+                            "subtitle": "Management, Marketing International et Business Development – Lille et Paris",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "Programme <em>Grande École</em> : Innovation, Communication, Gestion Internationale des Resources Humaines, Marketing International, Management Stratégique.",
+                                    "<em>Présidente de l'Association de Photographie</em> : a développé et promu la présence de photographes du club lors des événements étudiants.",
+                                    "<em>Erasmus</em> : échange à Munich Business School de janvier à mai 2014."
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Sept. 2012",
+                                "end": "Juin 2016",
+                                "duration": "4 ans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "icon-section",
+                    "title": "Expériences professionnelles",
+                    "icon": {
+                        "library": "material",
+                        "name": "work"
+                    },
+                    "content": [
+                        {
+                            "type": "experience",
+                            "title": "Consultante",
+                            "subtitle": "ConvictionsRH – Paris",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "<em>Société de conseil spécialisée dans le changement de la fonction RH</em>",
+                                    {
+                                        "type": "bullet_list",
+                                        "content": [
+                                            "Benchmarking logiciel : analyse comparative des coûts et perspectives stratégiques des solutions d'éditeurs afin d'accompagner la transition de clients vers une solution plus agile et productive ; application de schémas directeurs, méthodologie innovante pour analyser les besoins stratégiques d'une entreprise.",
+                                            "Animation et organisation des réseaux de communication pour le déploiement du SIRH de l'Éducation Nationale, l'un des plus importants au monde (1,3 million de personnes) ; déploiement et développement des réseaux avec les académies, organisation d'ateliers pour plus de 100 participants, destion des communautés pour déployer les nouveaux outils et former les employés à leur utilisation.",
+                                            "Création d'un ensemble d'outils de gestion de projets et de portefeuilles de projets pour l'agile et le cycle en V afin d'aider les clients à gérer plus efficacement leurs projets : template de suivi de projet, modèle d'organisation de la gouvernance, matrice des responsabilités, matrice de risques."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Jan. 2017",
+                                "end": "–",
+                                "duration": "15 m."
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Assistante Chef de Produit",
+                            "subtitle": "La Maison du Chocolat (Savencia Group) – région parisienne",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "<em>Maison parisienne de boutiques de chocolats implantées à travers le monde</em>",
+                                    {
+                                        "type": "bullet_list",
+                                        "content": [
+                                            "Gestion et suivi de nouvelles campagnes marketing, benchmark avec des produits en internes et de la concurrence.",
+                                            "Lancement réussi d'une gamme de chocolats et pâtisseries pour des campagnes saisonnières éphémères, création du packaging.",
+                                            "Création et développement de différents outils de communication B2C : books commerciaux, leaflets, brochures, cartes postales, événements en boutiques."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Avr. 2016",
+                                "end": "Sep. 2016",
+                                "duration": "6 m."
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Assistante Chef de Produit",
+                            "subtitle": "Harrys (Barilla Group) – Paris",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "<em>Harrys produit et vend du pain et des pâtisseries industrielles à travers le monde depuis 1965.</em>",
+                                    {
+                                        "type": "bullet_list",
+                                        "content": [
+                                            "Analyse et comparaison des performances des produits, suivi des ventes à l'aide de panels Nielsen.",
+                                            "Gestion d'un événement de campagne promotionnelle : développement du site web, packaging promotionnel, organisation d'un jeu-concours."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Jan. 2015",
+                                "end": "Juin 2015",
+                                "duration": "6 m."
+                            }
+                        },
+                        {
+                            "type": "experience",
+                            "title": "Assistante Trade Marketing",
+                            "subtitle": "Palais des Thés – Paris",
+                            "content": {
+                                "type": "text",
+                                "value": [
+                                    "<em>Maison de thés fondée en 1986 à Paris.</em>",
+                                    {
+                                        "type": "bullet_list",
+                                        "content": [
+                                            "Développement de partenariats avec <em>L'Occitane en Provence</em> autour de l'aromachologie et avec <em>Le Grand Palais</em> lors de l'exposition Hokusai (190&nbsp;000 visiteurs en 3 mois) ; gestion d'événements en boutique pour clients VIP.",
+                                            "Développement de campagnes mensuelles d'accessoires et de supports merchandizing pour les boutiques."
+                                        ]
+                                    }
+                                ]
+                            },
+                            "timeline": {
+                                "begin": "Juil. 2014",
+                                "end": "Déc. 2014",
+                                "duration": "6 m."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]
