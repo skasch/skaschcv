@@ -1,0 +1,555 @@
+- endpoint: /
+  data:
+    header:
+      description:
+        "Data Scientist capable d'impl\xC3\xA9menter de complexes mod\xC3\
+        \xA8les math\xC3\xA9matiques en prenant en compte les contraintes op\xC3\xA9\
+        rationnelles pour produire des r\xC3\xA9sultats actionnables et les communiquer\
+        \ sous forme de visualisations impactantes."
+      name: Romain Mondon-Cancel
+    main:
+      - content:
+          - content:
+              type: text
+              value:
+                - "Formation g\xC3\xA9n\xC3\xA9raliste en math\xC3\xA9matiques, math\xC3\
+                  \xA9matiques appliqu\xC3\xA9es, physique et informatique."
+                - "<em>Outstanding Investment</em> : a fait preuve d'un investissement
+                  exceptionnel dans la vie de promotion (2012)."
+            subtitle:
+              "Dipl\xC3\xB4me d'ing\xC3\xA9nieur de l'\xC3\u2030cole polytechnique\
+              \ \xE2\u20AC\u201C r\xC3\xA9gion parisienne"
+            timeline:
+              begin: Sept. 2009
+              duration: 3 ans
+              end: "Ao\xC3\xBBt 2012"
+            title: "\xC3\u2030cole polytechnique"
+            type: experience
+          - content:
+              type: text
+              value:
+                - "Cursus <em>Machines et \xC3\u2030nergie</em>."
+                - "<em>Projet m\xC3\xA9catronique</em> : gestion de la communication d'une\
+                  \ \xC3\xA9quipe de 15 \xC3\xA9tudiants pour un projet de r\xC3\xA9alisation\
+                  \ d'une base roulante pour drone quadricopt\xC3\xA8re."
+            subtitle:
+              "Dipl\xC3\xB4me d'ing\xC3\xA9nieur des mines de Paris \xE2\u20AC\
+              \u201C Paris"
+            timeline:
+              begin: Sept. 2009
+              duration: 3 ans
+              end: "Ao\xC3\xBBt 2012"
+            title: "\xC3\u2030cole des mines ParisTech"
+            type: experience
+        icon:
+          library: material
+          name: school
+        title: Formation
+        type: icon-section
+      - content:
+          - content:
+              type: text
+              value:
+                - "A analys\xC3\xA9 les donn\xC3\xA9es comportementales des joueurs de diff\xC3\
+                  \xA9rents jeux et segment\xC3\xA9 ces populations pour affiner la connaissance\
+                  \ client par groupe plut\xC3\xB4t qu'au global (environ 10 millions de\
+                  \ lignes)."
+                - "A d\xC3\xA9velopp\xC3\xA9 et mis en production diff\xC3\xA9rents outils\
+                  \ d'analyse en <em>R-Shiny</em>, tels que la matrice Importance-Satisfaction,\
+                  \ pour \xC3\xAAtre utilisables par tous les analystes."
+                - "A pr\xC3\xA9par\xC3\xA9 et anim\xC3\xA9 diff\xC3\xA9rentes formations\
+                  \ autour des Data Sciences \xC3\_ destination d'analystes, notamment en\
+                  \ statistiques, en Machine Learning et en python."
+            subtitle: "Ubisoft \xE2\u20AC\u201C r\xC3\xA9gion parisienne"
+            timeline:
+              begin: Jan. 2016
+              duration: 2 ans
+              end: "\xE2\u20AC\u201C"
+            title: Data Scientist
+            type: experience
+          - content:
+              type: text
+              value:
+                - "A analys\xC3\xA9 les donn\xC3\xA9es comportementales des joueurs de diff\xC3\
+                  \xA9rents jeux et segment\xC3\xA9 ces populations pour affiner la connaissance\
+                  \ client par groupe plut\xC3\xB4t qu'au global (environ 10 millions de\
+                  \ lignes)."
+                - "A d\xC3\xA9velopp\xC3\xA9 un framework autour de <em>R-shiny</em> pour\
+                  \ pouvoir rapidement d\xC3\xA9ployer des applications web afin de visualiser\
+                  \ des r\xC3\xA9sultats d'analyses."
+                - "A d\xC3\xA9velopp\xC3\xA9 un outil de segmentation de documents textuels\
+                  \ utilisant la pond\xC3\xA9ration <em>TF-IDF</em> pour faciliter le traitement\
+                  \ de donn\xC3\xA9es d\xC3\xA9claratives."
+            subtitle: "Ubisoft \xE2\u20AC\u201C San Francisco"
+            timeline:
+              begin: Jan. 2015
+              duration: 1 an
+              end: Jan. 2016
+            title: Data Scientist
+            type: experience
+          - content:
+              type: text
+              value:
+                - "A d\xC3\xA9velopp\xC3\xA9 un algorithme utilisant les cha\xC3\xAEnes\
+                  \ de Markov pour g\xC3\xA9n\xC3\xA9ner des profils de vitesse de v\xC3\
+                  \xA9hicules r\xC3\xA9alistes sur des trajets donn\xC3\xA9s."
+                - "A d\xC3\xA9velopp\xC3\xA9 une interface graphique en Matlab pour ex\xC3\
+                  \xA9cuter ce pr\xC3\xA9c\xC3\xA9dent algorithme et it\xC3\xA9rer rapidement\
+                  \ son application sur diff\xC3\xA9rents jeux de donn\xC3\xA9es."
+            subtitle: "Argonne National Laboratory \xE2\u20AC\u201C r\xC3\xA9gion de Chicago"
+            timeline:
+              begin: Jan. 2014
+              duration: 6 m.
+              end: Juil. 2014
+            title: Research Engineer (stage)
+            type: experience
+          - content:
+              type: text
+              value:
+                - "A d\xC3\xA9velopp\xC3\xA9 un algorithme innovant en Matlab et Fortran\
+                  \ ex\xC3\xA9cut\xC3\xA9 sur des serveurs de calcul d\xC3\xA9di\xC3\xA9\
+                  s pour r\xC3\xA9soudre les \xC3\xA9quations m\xC3\xA9caniques de milieux\
+                  \ h\xC3\xA9t\xC3\xA9rog\xC3\xA8nes sous fortes contraintes ; l'algorithme\
+                  \ tournait entre 5 et 20 fois plus rapidement que l'algorithme de r\xC3\
+                  \xA9f\xC3\xA9rence \xC3\_ l'issue du stage."
+            subtitle:
+              "Commissariat \xC3\_ l'\xC3\xA9nergie atomique (CEA) \xE2\u20AC\u201C\
+              \ r\xC3\xA9gion parisienne"
+            timeline:
+              begin: Mai 2012
+              duration: 4 m.
+              end: "Ao\xC3\xBBt 2012"
+            title: "Ing\xC3\xA9nieur-chercheur (stage)"
+            type: experience
+        icon:
+          library: material
+          name: work
+        title: "Exp\xC3\xA9rience professionnelle"
+        type: icon-section
+    meta:
+      title: CV Romain Mondon-Cancel
+    side:
+      - content:
+          - content:
+              type: text
+              value:
+                - 60 rue du rendez-vous<br/>75012 Paris
+            icon:
+              library: material
+              name: home
+            title: Adresse
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - +33 (0)6 95 77 01 24
+            icon:
+              library: material
+              name: phone_android
+            title: "T\xC3\xA9l\xC3\xA9phone"
+            type: icon-card
+          - content:
+              href: mailto:romain.mondoncancel@gmail.com
+              type: url
+              value: romain.mondoncancel@gmail.com
+            icon:
+              library: material
+              name: email
+            title: Courriel
+            type: icon-card
+          - content:
+              href: https://cv.skasch.com
+              type: url
+              value: cv.skasch.com
+            icon:
+              library: material
+              name: public
+            title: Site web
+            type: icon-card
+          - content:
+              href: https://www.linkedin.com/in/skasch
+              type: url
+              value: linkedin.com/in/skasch
+            icon:
+              library: fontawesome
+              name: linkedin
+            title: LinkedIn
+            type: icon-card
+          - content:
+              href: https://www.github.com/skasch
+              type: url
+              value: github.com/skasch
+            icon:
+              library: fontawesome
+              name: github
+            title: GitHub
+            type: icon-card
+          - content:
+              href: https://www.codepen.io/skasch
+              type: url
+              value: codepen.io/skasch
+            icon:
+              library: fontawesome
+              name: codepen
+            title: CodePen
+            type: icon-card
+        title: Contact
+        type: section
+      - content:
+          - title: Data Science
+            type: progress-bar
+            value: 90
+          - title: Business Intelligence
+            type: progress-bar
+            value: 75
+          - title: Gestion de projet
+            type: progress-bar
+            value: 60
+          - title: Data Visualization
+            type: progress-bar
+            value: 82.5
+          - title: "Bases de donn\xC3\xA9es"
+            type: progress-bar
+            value: 67.5
+        title: "Comp\xC3\xA9tences"
+        type: section
+      - content:
+          - title: R
+            type: stars
+            value: 4.5
+          - title: SQL/Hive
+            type: stars
+            value: 3.5
+          - title: Python
+            type: stars
+            value: 4
+          - title: Shell
+            type: stars
+            value: 3.5
+          - title: Git
+            type: stars
+            value: 4
+        title: Informatique
+        type: section
+      - content:
+          - badge: FR
+            title: "Fran\xC3\xA7ais"
+            type: badged
+            value: Langue maternelle
+          - badge: EN
+            title: Anglais
+            type: badged
+            value: Bilingue
+          - badge: ES
+            title: Espagnol
+            type: badged
+            value: "Interm\xC3\xA9diaire"
+        title: Langues
+        type: section
+      - content:
+          - content:
+              type: text
+              value:
+                - Pratique l'escalade depuis 2009
+            icon:
+              library: material
+              name: landscape
+            title: Sport
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - Photographe amateur depuis 2013
+            icon:
+              library: material
+              name: photo_camera
+            title: Loisirs
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - "Mention au Concours G\xC3\xA9n\xC3\xA9ral de math\xC3\xA9matiques 2007"
+                - "Second suppl\xC3\xA9ant aux Olympiades Internationales de Physique 2008"
+            icon:
+              library: fontawesome
+              name: trophy
+            title: "R\xC3\xA9compenses"
+            type: icon-card
+        title: Divers
+        type: section
+- data:
+    header:
+      description:
+        "Consultante capable de g\xC3\xA9rer en autonomie des projets de\
+        \ conduite du changement actuellement en recherche de nouveaux challenges\
+        \ <span style='display: inline-block;'>en Marketing et Communication.</span>"
+      name: "C\xC3\xA9cile B\xC3\u2030DU"
+    main:
+      - content:
+          - content:
+              type: text
+              value:
+                - "Programme <em>Grande \xC3\u2030cole</em> : Innovation, Communication,\
+                  \ Gestion Internationale des Resources Humaines, Marketing International,\
+                  \ Management Strat\xC3\xA9gique."
+                - "<em>Pr\xC3\xA9sidente de l'Association de Photographie</em> : a d\xC3\
+                  \xA9velopp\xC3\xA9 et promu la pr\xC3\xA9sence de photographes du club\
+                  \ lors des \xC3\xA9v\xC3\xA9nements \xC3\xA9tudiants."
+                - "<em>Erasmus</em> : \xC3\xA9change \xC3\_ Munich Business School de janvier\
+                  \ \xC3\_ mai 2014."
+            subtitle:
+              "Management, Marketing International et Business Development \xE2\
+              \u20AC\u201C Lille et Paris"
+            timeline:
+              begin: Sept. 2012
+              duration: 4 ans
+              end: Juin 2016
+            title: SKEMA Business School
+            type: experience
+        icon:
+          library: material
+          name: school
+        title: Formation
+        type: icon-section
+      - content:
+          - content:
+              type: text
+              value:
+                - "<em>Soci\xC3\xA9t\xC3\xA9 de conseil sp\xC3\xA9cialis\xC3\xA9e dans le\
+                  \ changement de la fonction RH</em>"
+                - content:
+                    - "Benchmarking logiciel : analyse comparative des co\xC3\xBBts et perspectives\
+                      \ strat\xC3\xA9giques des solutions d'\xC3\xA9diteurs afin d'accompagner\
+                      \ la transition de clients vers une solution plus agile et productive\
+                      \ ; application de sch\xC3\xA9mas directeurs, m\xC3\xA9thodologie innovante\
+                      \ pour analyser les besoins strat\xC3\xA9giques d'une entreprise."
+                    - "Animation et organisation des r\xC3\xA9seaux de communication pour\
+                      \ le d\xC3\xA9ploiement du SIRH de l'\xC3\u2030ducation Nationale, l'un\
+                      \ des plus importants au monde (1,3 million de personnes) ; d\xC3\xA9\
+                      ploiement et d\xC3\xA9veloppement des r\xC3\xA9seaux avec les acad\xC3\
+                      \xA9mies, organisation d'ateliers pour plus de 100 participants, destion\
+                      \ des communaut\xC3\xA9s pour d\xC3\xA9ployer les nouveaux outils et\
+                      \ former les employ\xC3\xA9s \xC3\_ leur utilisation."
+                    - "Cr\xC3\xA9ation d'un ensemble d'outils de gestion de projets et de\
+                      \ portefeuilles de projets pour l'agile et le cycle en V afin d'aider\
+                      \ les clients \xC3\_ g\xC3\xA9rer plus efficacement leurs projets :\
+                      \ template de suivi de projet, mod\xC3\xA8le d'organisation de la gouvernance,\
+                      \ matrice des responsabilit\xC3\xA9s, matrice de risques."
+                  type: bullet_list
+            subtitle: "ConvictionsRH \xE2\u20AC\u201C Paris"
+            timeline:
+              begin: Jan. 2017
+              duration: 15 m.
+              end: "\xE2\u20AC\u201C"
+            title: Consultante
+            type: experience
+          - content:
+              type: text
+              value:
+                - "<em>Maison parisienne de boutiques de chocolats implant\xC3\xA9es \xC3\
+                  \_ travers le monde</em>"
+                - content:
+                    - Gestion et suivi de nouvelles campagnes marketing, benchmark avec des
+                      produits en internes et de la concurrence.
+                    - "Lancement r\xC3\xA9ussi d'une gamme de chocolats et p\xC3\xA2tisseries\
+                      \ pour des campagnes saisonni\xC3\xA8res \xC3\xA9ph\xC3\xA9m\xC3\xA8\
+                      res, cr\xC3\xA9ation du packaging."
+                    - "Cr\xC3\xA9ation et d\xC3\xA9veloppement de diff\xC3\xA9rents outils\
+                      \ de communication B2C : books commerciaux, leaflets, brochures, cartes\
+                      \ postales, \xC3\xA9v\xC3\xA9nements en boutiques."
+                  type: bullet_list
+            subtitle:
+              "La Maison du Chocolat (Savencia Group) \xE2\u20AC\u201C r\xC3\xA9\
+              gion parisienne"
+            timeline:
+              begin: Avr. 2016
+              duration: 6 m.
+              end: Sep. 2016
+            title: Assistante Chef de Produit
+            type: experience
+          - content:
+              type: text
+              value:
+                - "<em>Harrys produit et vend du pain et des p\xC3\xA2tisseries industrielles\
+                  \ \xC3\_ travers le monde depuis 1965.</em>"
+                - content:
+                    - "Analyse et comparaison des performances des produits, suivi des ventes\
+                      \ \xC3\_ l'aide de panels Nielsen."
+                    - "Gestion d'un \xC3\xA9v\xC3\xA9nement de campagne promotionnelle : d\xC3\
+                      \xA9veloppement du site web, packaging promotionnel, organisation d'un\
+                      \ jeu-concours."
+                  type: bullet_list
+            subtitle: "Harrys (Barilla Group) \xE2\u20AC\u201C Paris"
+            timeline:
+              begin: Jan. 2015
+              duration: 6 m.
+              end: Juin 2015
+            title: Assistante Chef de Produit
+            type: experience
+          - content:
+              type: text
+              value:
+                - "<em>Maison de th\xC3\xA9s fond\xC3\xA9e en 1986 \xC3\_ Paris.</em>"
+                - content:
+                    - "D\xC3\xA9veloppement de partenariats avec <em>L'Occitane en Provence</em>\
+                      \ autour de l'aromachologie et avec <em>Le Grand Palais</em> lors de\
+                      \ l'exposition Hokusai (190&nbsp;000 visiteurs en 3 mois) ; gestion\
+                      \ d'\xC3\xA9v\xC3\xA9nements en boutique pour clients VIP."
+                    - "D\xC3\xA9veloppement de campagnes mensuelles d'accessoires et de supports\
+                      \ merchandizing pour les boutiques."
+                  type: bullet_list
+            subtitle: "Palais des Th\xC3\xA9s \xE2\u20AC\u201C Paris"
+            timeline:
+              begin: Juil. 2014
+              duration: 6 m.
+              end: "D\xC3\xA9c. 2014"
+            title: Assistante Trade Marketing
+            type: experience
+        icon:
+          library: material
+          name: work
+        title: "Exp\xC3\xA9riences professionnelles"
+        type: icon-section
+    meta:
+      title: "CV C\xC3\xA9cile B\xC3\u2030DU"
+    side:
+      - content:
+          - content:
+              type: text
+              value:
+                - "60 rue du rendez-vous<br/>75012 Paris \xE2\u20AC\u201C France"
+            icon:
+              library: material
+              name: home
+            title: Adresse
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - +33 (0)7 88 09 95 76
+            icon:
+              library: material
+              name: phone_android
+            title: "T\xC3\xA9l\xC3\xA9phone"
+            type: icon-card
+          - content:
+              href: skype:bedu.cecile
+              type: url
+              value: bedu.cecile
+            icon:
+              library: fontawesome
+              name: skype
+            title: Skype
+            type: icon-card
+          - content:
+              href: mailto:cecile.bedu@gmail.com
+              type: url
+              value: cecile.bedu@gmail.com
+            icon:
+              library: material
+              name: email
+            title: E-mail
+            type: icon-card
+          - content:
+              href: https://www.linkedin.com/in/c%C3%A9cile-b%C3%A9du-7545a65b/?locale=fr_FR
+              type: url
+              value: "C\xC3\xA9cile B\xC3\xA9du"
+            icon:
+              library: fontawesome
+              name: linkedin
+            title: LinkedIn
+            type: icon-card
+        title: Contact
+        type: section
+      - content:
+          - title: Management de projet
+            type: progress-bar
+            value: 90
+          - title: Conduite du changement
+            type: progress-bar
+            value: 70
+          - title: Marketing
+            type: progress-bar
+            value: 90
+          - title: Communication
+            type: progress-bar
+            value: 70
+          - title: Brand Management
+            type: progress-bar
+            value: 80
+          - title: "Gestion \xC3\xA9v\xC3\xA9nementielle"
+            type: progress-bar
+            value: 90
+          - title: Ressources Humaines
+            type: progress-bar
+            value: 60
+        title: "Comp\xC3\xA9tences"
+        type: section
+      - content:
+          - title: Confluence
+            type: stars
+            value: 4.5
+          - title: Jira
+            type: stars
+            value: 3.5
+          - title: Suite Office
+            type: stars
+            value: 4
+        title: Informatique
+        type: section
+      - content:
+          - badge: FR
+            title: "Fran\xC3\xA7ais"
+            type: badged
+            value: Langue maternelle
+          - badge: EN
+            title: Anglais
+            type: badged
+            value: Bilingue
+          - badge: DE
+            title: Allemand
+            type: badged
+            value: Courant
+        title: Langues
+        type: section
+      - content:
+          - content:
+              type: text
+              value:
+                - Pratique l'escalade depuis 2015
+            icon:
+              library: material
+              name: landscape
+            title: Sport
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - "Cuisini\xC3\xA8re amateure ayant un faible pour les g\xC3\xA2teaux"
+            icon:
+              library: material
+              name: local_dining
+            title: Loisirs
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - Lectrice assidue de livres de science-fiction et de fantasy
+            icon:
+              library: fontawesome
+              name: book
+            title: "Litt\xC3\xA9rature"
+            type: icon-card
+          - content:
+              type: text
+              value:
+                - Prix du jury lors du Nudge Challenge contre le gaspillage alimentaire
+                  en 2016
+            icon:
+              library: fontawesome
+              name: trophy
+            title: "R\xC3\xA9compenses"
+            type: icon-card
+        title: Divers
+        type: section
+  endpoint: /cecile_mkg_fr
