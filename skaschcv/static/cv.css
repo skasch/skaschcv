@@ -1,7 +1,7 @@
 @media print {
   .container {
-    min-width: 1140px;
-    max-width: 1140px;
+    min-width: 1300px;
+    max-width: 1300px;
   }
 }
 
@@ -28,6 +28,10 @@ h6 {
   background-color: #eceff1;
 }
 
+.cv-side-panel > .container-fluid > .row {
+  padding-bottom: 3em;
+}
+
 .cv-h-container {
   display: inline-block;
   width: 100%;
@@ -37,12 +41,14 @@ h6 {
   padding: 4px;
 }
 
-.cv-h-container h2, .cv-h-container h3 {
+.cv-h-container h2,
+.cv-h-container h3 {
   font-variant: small-caps;
   margin-bottom: 0px;
 }
 
-.material-icons.cv-icon-side,.fa.cv-icon-side {
+.material-icons.cv-icon-side,
+.faicon.cv-icon-side {
   width: 100%;
   color: #1565c0;
   font-size: 36px;
@@ -59,17 +65,18 @@ h6 {
   padding: 0px 6px !important;
 }
 
-.p-2.cv-skill-name,.p-2.cv-cs-name {
+.p-2.cv-skill-name,
+.p-2.cv-cs-name {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
 }
 
 .cv-skill-progress {
-  flex: 0 0 50%;
+  flex: 0 0 45%;
 }
 
 .cv-skill-row {
-   width: 100%;
+  width: 100%;
 }
 
 .cv-skill-progress > .progress {
@@ -89,11 +96,13 @@ h6 {
   letter-spacing: -2px;
 }
 
-.material-icons,.fa {
+.material-icons,
+.faicon {
   color: #1565c0;
 }
 
-.material-icons.cv-icon-main,.fa.cv-icon-main {
+.material-icons.cv-icon-main,
+.faicon.cv-icon-main {
   font-size: 48px;
   padding: 4px 16px 0px 0px;
   margin-top: -8px;
@@ -101,6 +110,8 @@ h6 {
 
 .cv-badge-language {
   background-color: #1565c0;
+  color: #eceff1;
+  /* float: left; */
 }
 
 .cv-main-group {
@@ -110,6 +121,10 @@ h6 {
 
 .cv-timeline {
   flex: 0 0 128px;
+}
+
+.p-2.cv-timeline {
+  padding-bottom: 0 !important;
 }
 
 .cv-timeline .flex-column {
@@ -123,16 +138,16 @@ h6 {
 }
 
 .cv-timeline-duration-wrapper {
-    float: left;
-    height: 100%;
-    width: 100%;
+  float: left;
+  height: 100%;
+  width: 100%;
 }
 
 .cv-timeline-duration {
-    background-color: #1565c0;
-    border-radius: 5px;
-    color: white;
-    padding: 0 5px;
+  background-color: #1565c0;
+  border-radius: 5px;
+  color: white;
+  padding: 0 5px;
 }
 
 .cv-timeline-line {
@@ -168,4 +183,3 @@ h6 {
   margin-top: 4px;
   margin-bottom: 4px;
 }
-

@@ -1,5 +1,10 @@
 {% if icon.library == 'material' %}
-    <i class="material-icons {{ css_class }}">{{ icon.name }}</i>
-{% elif icon.library == 'fontawesome' %}
-    <i class="fa fa-{{ icon.name }} {{ css_class }}" aria-hidden="true"></i>
-{% endif %}
+<i class="material-icons {{ css_class }}">{{ icon.name }}</i>
+{% elif icon.library == 'fontawesome' %} {% if 'subgroup' in icon %}
+<i
+  class="faicon {{ icon.subgroup }} fa-{{ icon.name }} {{ css_class }}"
+  aria-hidden="true"
+></i>
+{% else %}
+<i class="faicon fa fa-{{ icon.name }} {{ css_class }}" aria-hidden="true"></i>
+{% endif %} {% endif %}

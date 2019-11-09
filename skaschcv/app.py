@@ -10,42 +10,59 @@ from flask import Flask, g, render_template
 
 app = Flask(__name__)
 
-app.config.from_object('config')
-app.config.from_envvar('SKASCHCV_SETTINGS', silent=True)
+app.config.from_object("config")
+app.config.from_envvar("SKASCHCV_SETTINGS", silent=True)
+
 
 def read_data():
     """
     Read the data from json file.
     """
-    with app.open_resource('json/data.json', mode='rb') as json_file:
-        json_content = json_file.read().decode('utf-8')
-        return json.loads(json_content)
+    with app.open_resource("json/data.json", mode="rb") as json_file:
+        json_content = json_file.read().decode("utf-8")
+        data = json.loads(json_content)
+    with app.open_resource("json/privatedata.json", mode="rb") as json_file:
+        json_content = json_file.read().decode("utf-8")
+        data.extend(json.loads(json_content))
+    return data
 
 
 def get_data(endpoint):
     """
     Read the json data if not loaded yet for the current application context.
     """
-    if not hasattr(g, 'json_data'):
-        g.json_data = list(filter(lambda x: x['endpoint'] == endpoint,
-                                  read_data()))[0]['data']
+    if not hasattr(g, "json_data"):
+        g.json_data = list(filter(lambda x: x["endpoint"] == endpoint, read_data()))[0][
+            "data"
+        ]
     return g.json_data
 
-@app.route('/')
+
+@app.route("/")
 def show_resume():
     """
     Show the default resume.
     """
-    endpoint = '/'
+    endpoint = "/"
     data = get_data(endpoint)
     return render_template("cv.html", data=data)
 
 
-@app.route('/cecile_mkg_fr')
+@app.route("/cecile_mkg_fr")
 def show_resume_cecile_mkg_fr():
     """
-    Show the default resume.
+    Show Cecile resume.
     """
-    endpoint = '/cecile_mkg_fr'
+    endpoint = "/cecile_mkg_fr"
+    data = get_data(endpoint)
+    return render_template("cv.html", data=data)
+
+
+@app.route("/martine")
+def show_resume_martine():
+    """
+    Show Martine resume.
+    """
+    endpoint = "/martine"
     data = get_data(endpoint)
     return render_template("cv.html", data=data)
