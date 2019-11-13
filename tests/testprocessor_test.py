@@ -19,10 +19,10 @@ meta:
 
 expected_yml = """
 data:
-    foo: "Réussite !"
+    foo: Réussite !
     bar: Hello
 meta:
-    baz: "Default replacement"
+    baz: Default replacement
 """
 
 text_data = {
