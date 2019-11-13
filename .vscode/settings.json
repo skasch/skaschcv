@@ -1,6 +1,4 @@
 {
-    "python.pythonPath": "env/bin/python",
-    "cSpell.words": [
-        "skaschcv"
-    ]
+  "python.pythonPath": "env/bin/python",
+  "cSpell.words": ["skaschcv"]
 }
