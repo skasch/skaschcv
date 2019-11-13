@@ -1,0 +1,19 @@
+<div class="col-3 col">
+  {% with icon=side_element.icon, css_class="cv-icon-side" %}
+    {% include 'icon.jinja' %}
+  {% endwith %}
+</div>
+<div class="col-9 cv-contact-info">
+  <h5>{{ side_element.title }}</h5>
+  {% if side_element.content.type == 'text' %}
+    {% for text in side_element.content.value %}
+      <p>
+        {{ text | safe }}
+      </p>
+    {% endfor %}
+  {% elif side_element.content.type == 'url' %}
+    <p>
+      <a href="{{ side_element.content.href }}">{{ side_element.content.value }}</a>
+    </p>
+  {% endif %}
+</div>

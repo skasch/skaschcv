@@ -1,0 +1,17 @@
+<div class="d-flex flex-row justify-content-start cv-skill-row">
+  <div class="p-2 cv-skill-name">
+    {{ side_element.title }}
+  </div>
+  <div class="p-2 ml-auto align-self-center cv-skill-progress">
+    <div class="progress">
+      <div
+        class="progress-bar"
+        role="progressbar"
+        style="width: {{ side_element.value }}%;"
+        aria-valuenow="{{ side_element.value }}"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+  </div>
+</div>

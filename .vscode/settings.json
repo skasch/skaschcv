@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "c:\\Users\\rmondoncancel\\Personal\\Python\\skaschcv\\env\\Scripts\\python.exe"
+    "python.pythonPath": "env/bin/python",
+    "cSpell.words": [
+        "skaschcv"
+    ]
 }
