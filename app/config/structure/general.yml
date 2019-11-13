@@ -1,0 +1,214 @@
+header:
+  description: "{{ description }}"
+  name: Romain Mondon-Cancel
+main:
+  - content:
+      - content:
+          type: text
+          value: "{{ workexperience.ubisoft3.value }}"
+        subtitle: "{{ workexperience.ubisoft3.subtitle }}"
+        timeline: "{{ workexperience.ubisoft3.timeline }}"
+        title: "{{ workexperience.ubisoft3.title }}"
+        type: experience
+      - content:
+          type: text
+          value: "{{ workexperience.ubisoft2.value }}"
+        subtitle: "{{ workexperience.ubisoft2.subtitle }}"
+        timeline: "{{ workexperience.ubisoft2.timeline }}"
+        title: "{{ workexperience.ubisoft2.title }}"
+        type: experience
+      - content:
+          type: text
+          value: "{{ workexperience.ubisoft1.value }}"
+        subtitle: "{{ workexperience.ubisoft1.subtitle }}"
+        timeline: "{{ workexperience.ubisoft1.timeline }}"
+        title: "{{ workexperience.ubisoft1.title }}"
+        type: experience
+      - content:
+          type: text
+          value: "{{ workexperience.argonne.value }}"
+        subtitle: "{{ workexperience.argonne.subtitle }}"
+        timeline: "{{ workexperience.argonne.timeline }}"
+        title: "{{ workexperience.argonne.title }}"
+        type: experience
+      - content:
+      - content:
+          type: text
+          value: "{{ workexperience.cea.value }}"
+        subtitle: "{{ workexperience.cea.subtitle }}"
+        timeline: "{{ workexperience.cea.timeline }}"
+        title: "{{ workexperience.cea.title }}"
+        type: experience
+    icon:
+      library: material
+      name: work
+    title: "{{ workexperience.title }}"
+    type: icon-section
+  - content:
+      - content:
+          type: text
+          value: "{{ education.polytechnique.value }}"
+        subtitle: "{{ education.polytechnique.subtitle }}"
+        timeline: "{{ education.polytechnique.timeline }}"
+        title: "{{ education.polytechnique.title }}"
+        type: experience
+      - content:
+          type: text
+          value: "{{ education.mines.value }}"
+        subtitle: "{{ education.mines.subtitle }}"
+        timeline: "{{ education.mines.timeline }}"
+        title: "{{ education.mines.title }}"
+        type: experience
+    icon:
+      library: material
+      name: school
+    title: "{{ education.title }}"
+    type: icon-section
+meta:
+  title: "{{ title }}"
+side:
+  - content:
+      - content:
+          type: text
+          value: "{{ contact.address.value }}"
+        icon:
+          library: material
+          name: home
+        title: "{{ contact.address.title }}"
+        type: icon-card
+      - content:
+          type: text
+          value: "{{ contact.phone.value }}"
+        icon:
+          library: material
+          name: phone_android
+        title: "{{ contact.phone.title }}"
+        type: icon-card
+      - content:
+          href: "{{ contact.email.href }}"
+          type: url
+          value: "{{ contact.email.value }}"
+        icon:
+          library: material
+          name: email
+        title: "{{ contact.email.title }}"
+        type: icon-card
+      - content:
+          href: "{{ contact.website.href }}"
+          type: url
+          value: "{{ contact.website.value }}"
+        icon:
+          library: material
+          name: public
+        title: "{{ contact.website.title }}"
+        type: icon-card
+      - content:
+          href: "{{ contact.linkedin.href }}"
+          type: url
+          value: "{{ contact.linkedin.value }}"
+        icon:
+          library: fontawesome
+          name: linkedin
+          subgroup: fab
+        title: "{{ contact.linkedin.title }}"
+        type: icon-card
+      - content:
+          href: "{{ contact.github.href }}"
+          type: url
+          value: "{{ contact.github.value }}"
+        icon:
+          library: fontawesome
+          name: github
+          subgroup: fab
+        title: "{{ contact.github.title }}"
+        type: icon-card
+      - content:
+          href: "{{ contact.codepen.href }}"
+          type: url
+          value: "{{ contact.codepen.value }}"
+        icon:
+          library: fontawesome
+          name: codepen
+          subgroup: fab
+        title: "{{ contact.codepen.title }}"
+        type: icon-card
+    title: "{{ contact.title }}"
+    type: section
+  - content:
+      - title: "{{ skills.datascience }}"
+        type: progress-bar
+        value: 90
+      - title: "{{ skills.bi }}"
+        type: progress-bar
+        value: 75
+      - title: "{{ skills.projectmanagement }}"
+        type: progress-bar
+        value: 60
+      - title: "{{ skills.datavisualization }}"
+        type: progress-bar
+        value: 82.5
+      - title: "{{ skills.database }}"
+        type: progress-bar
+        value: 67.5
+    title: "{{ skills.title }}"
+    type: section
+  - content:
+      - title: "{{ computerlanguages.r }}"
+        type: stars
+        value: 4.5
+      - title: "{{ computerlanguages.sqlhive }}"
+        type: stars
+        value: 3.5
+      - title: "{{ computerlanguages.python }}"
+        type: stars
+        value: 4
+      - title: "{{ computerlanguages.shell }}"
+        type: stars
+        value: 3.5
+      - title: "{{ computerlanguages.git }}"
+        type: stars
+        value: 4
+    title: "{{ computerlanguages.title }}"
+    type: section
+  - content:
+      - badge: FR
+        title: "{{ languages.name.french }}"
+        type: badged
+        value: "{{ languages.level.native }}"
+      - badge: EN
+        title: "{{ languages.name.english }}"
+        type: badged
+        value: "{{ languages.level.bilingual }}"
+      - badge: ES
+        title: "{{ languages.name.spanish }}"
+        type: badged
+        value: "{{ languages.level.intermediate }}"
+    title: "{{ languages.title }}"
+    type: section
+  - content:
+      - content:
+          type: text
+          value: "{{ misc.climbing.value }}"
+        icon:
+          library: material
+          name: landscape
+        title: "{{ misc.climbing.title }}"
+        type: icon-card
+      - content:
+          type: text
+          value: "{{ misc.photography.value }}"
+        icon:
+          library: material
+          name: photo_camera
+        title: "{{ misc.photography.title }}"
+        type: icon-card
+      - content:
+          type: text
+          value: "{{ misc.awards.value }}"
+        icon:
+          library: fontawesome
+          name: trophy
+        title: "{{ misc.awards.title }}"
+        type: icon-card
+    title: "{{ misc.title }}"
+    type: section

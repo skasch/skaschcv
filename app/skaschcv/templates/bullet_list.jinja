@@ -1,0 +1,10 @@
+{% if "title" in content %}
+  <span>{{ content.title | safe }}</span>
+{% endif %}
+<ul class="cv-bullet-list">
+  {% for text in content.content %}
+    <li>
+      {{ text | safe }}
+    </li>
+  {% endfor %}
+</ul>
