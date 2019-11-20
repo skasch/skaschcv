@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "${SKASCHCV_PORT}:80"
+    volumes:
+      - ./app/config:/app/config

@@ -84,8 +84,14 @@ skills:
     fr-FR: Compétences
   datascience:
     en-US: Data Science
+  deeplearning:
+    en-US: Deep Learning
   bi:
     en-US: Business Intelligence
+  cloud:
+    en-US: GCP (Cloud)
+  communication:
+    en-US: Communication
   projectmanagement:
     en-US: Project Management
     fr-FR: Gestion de projet
@@ -95,20 +101,28 @@ skills:
     en-US: Databases
     fr-FR: Bases de données
 
-computerlanguages:
+technologies:
   title:
-    en-US: Computer Languages
+    en-US: Technologies
     fr-FR: Informatique
-  r:
-    en-US: R
-  sqlhive:
-    en-US: SQL/Hive
+  sql:
+    en-US: SQL/HQL
+  spark:
+    en-US: (Py)Spark
   python:
     en-US: Python
   shell:
     en-US: Shell
   git:
     en-US: Git
+  docker:
+    en-US: Docker
+  kubernetes:
+    en-US: Kubernetes
+  tensorflow:
+    en-US: TensorFlow
+  golang:
+    en-US: Golang
 
 languages:
   title:
@@ -213,9 +227,9 @@ workexperience:
     value:
       en-US:
         - >-
-          Developed an algorithm based on that profile to generate realistic speed
-          profiles on any itinerary, where previously simulations required to actually
-          drive on the said itinerary.
+          Developed a Markov Chains-based algorithm based on that profile to generate
+          realistic speed profiles on any itinerary, where previously simulations
+          required to actually drive on the said itinerary.
         - >-
           Developed a Matlab GUI to support the Autonomie team in using this new
           feature, with a very flexible and user-friendly design displaying the
@@ -410,9 +424,6 @@ education:
           Designed a new chassis with wheels for a quad-copter to enable ground
           movement. The drone successfully moved in the air and on the ground at the end
           of the 3-weeks project.
-        - >-
-          Designing a product logo, a graphical charter, a commercial leaflet and a
-          video teaser for the quad-copter chassis.
       fr-FR:
         - >-
           Cursus <em>Machines et Énergie</em>.
@@ -429,3 +440,32 @@ education:
         begin: Sept. 2012
         duration: 2 ans
         end: Juil. 2014
+  mitx:
+    title:
+      en-US: MITx
+      fr-FR: MITx
+    subtitle:
+      en-US: Graduate-level courses – <a href="www.edx.org">EdX</a>
+      fr-FR: Cours de niveau master – <a href="www.edx.org">EdX</a>
+    value:
+      en-US:
+        - >-
+          <em>18.6501x Fundamentals of Statistics</em>: passed with 100%.
+        - >-
+          <em>6.86x Machine Learning with Python – From Linear Models to Deep
+          Learning</em>: passed with 100%.
+      fr-FR:
+        - >-
+          <em>18.6501x Fundamentals of Statistics</em>: validé avec un score de 100%.
+        - >-
+          <em>6.86x Machine Learning with Python – From Linear Models to Deep
+          Learning</em>: validé avec un score de 100%.
+    timeline:
+      en-US:
+        begin: Feb. 2019
+        duration: 8 m.
+        end: Sep. 2019
+      fr-FR:
+        begin: Fév. 2019
+        duration: 8 m.
+        end: Sept. 2019

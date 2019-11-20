@@ -31,14 +31,6 @@ main:
         timeline: "{{ workexperience.argonne.timeline }}"
         title: "{{ workexperience.argonne.title }}"
         type: experience
-      - content:
-      - content:
-          type: text
-          value: "{{ workexperience.cea.value }}"
-        subtitle: "{{ workexperience.cea.subtitle }}"
-        timeline: "{{ workexperience.cea.timeline }}"
-        title: "{{ workexperience.cea.title }}"
-        type: experience
     icon:
       library: material
       name: work
@@ -47,10 +39,10 @@ main:
   - content:
       - content:
           type: text
-          value: "{{ education.polytechnique.value }}"
-        subtitle: "{{ education.polytechnique.subtitle }}"
-        timeline: "{{ education.polytechnique.timeline }}"
-        title: "{{ education.polytechnique.title }}"
+          value: "{{ education.mitx.value }}"
+        subtitle: "{{ education.mitx.subtitle }}"
+        timeline: "{{ education.mitx.timeline }}"
+        title: "{{ education.mitx.title }}"
         type: experience
       - content:
           type: text
@@ -58,6 +50,13 @@ main:
         subtitle: "{{ education.mines.subtitle }}"
         timeline: "{{ education.mines.timeline }}"
         title: "{{ education.mines.title }}"
+        type: experience
+      - content:
+          type: text
+          value: "{{ education.polytechnique.value }}"
+        subtitle: "{{ education.polytechnique.subtitle }}"
+        timeline: "{{ education.polytechnique.timeline }}"
+        title: "{{ education.polytechnique.title }}"
         type: experience
     icon:
       library: material
@@ -137,38 +136,47 @@ side:
   - content:
       - title: "{{ skills.datascience }}"
         type: progress-bar
-        value: 90
-      - title: "{{ skills.bi }}"
+        value: 95
+      - title: "{{ skills.deeplearning }}"
         type: progress-bar
-        value: 75
-      - title: "{{ skills.projectmanagement }}"
-        type: progress-bar
-        value: 60
+        value: 85
       - title: "{{ skills.datavisualization }}"
         type: progress-bar
-        value: 82.5
-      - title: "{{ skills.database }}"
+        value: 90
+      - title: "{{ skills.cloud }}"
         type: progress-bar
-        value: 67.5
+        value: 70
+      - title: "{{ skills.communication }}"
+        type: progress-bar
+        value: 80
     title: "{{ skills.title }}"
     type: section
   - content:
-      - title: "{{ computerlanguages.r }}"
+      - title: "{{ technologies.python }}"
         type: stars
         value: 4.5
-      - title: "{{ computerlanguages.sqlhive }}"
-        type: stars
-        value: 3.5
-      - title: "{{ computerlanguages.python }}"
+      - title: "{{ technologies.tensorflow }}"
         type: stars
         value: 4
-      - title: "{{ computerlanguages.shell }}"
+      - title: "{{ technologies.sql }}"
         type: stars
-        value: 3.5
-      - title: "{{ computerlanguages.git }}"
+        value: 4.5
+      - title: "{{ technologies.spark }}"
         type: stars
         value: 4
-    title: "{{ computerlanguages.title }}"
+      - title: "{{ technologies.shell }}"
+        type: stars
+        value: 3.5
+      - title: "{{ technologies.git }}"
+        type: stars
+        value: 4
+      - title: "{{ technologies.docker }}"
+        type: stars
+        value: 4
+      - title: "{{ technologies.golang }}"
+        type: stars
+        value: 3
+    title: "{{ technologies.title }}"
     type: section
   - content:
       - badge: FR
